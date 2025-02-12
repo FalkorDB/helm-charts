@@ -19,3 +19,5 @@ jobs:
           platforms: linux/arm64,linux/amd64
           push: false
           tags: falkordb/redis:latest
+
+
