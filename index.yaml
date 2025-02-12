@@ -3,7 +3,7 @@ entries:
   redis-operator:
   - apiVersion: v2
     appVersion: 0.19.0
-    created: "2025-02-12T16:39:44.782919+02:00"
+    created: "2025-02-12T16:49:07.356196+02:00"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: 02c01109790caa4315e206e1db590579c32a45d9f8dd6aa1c5af3d636ab5a268
@@ -23,6 +23,6 @@ entries:
     sources:
     - https://github.com/OT-CONTAINER-KIT/redis-operator
     urls:
-    - https://FalkorDB.github.io/helm-charts/redis-operator-0.19.2.tgz
+    - redis-operator-0.19.2.tgz
     version: 0.19.2
-generated: "2025-02-12T16:39:44.776244+02:00"
+generated: "2025-02-12T16:49:07.349014+02:00"
