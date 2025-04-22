@@ -73,6 +73,27 @@ entries:
   operator:
   - apiVersion: v2
     appVersion: 0.19.1
+    created: "2025-04-22T10:07:58.368775622Z"
+    description: Provides easy falkordb-operator setup definitions for Kubernetes
+      services, and deployment.
+    digest: 47fc6be13b12ad18339266518e0570e3d76333c53d5033588b3c9d25cf8484d7
+    home: https://github.com/falkordb/operator
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    maintainers:
+    - name: muhammadqadora
+    name: operator
+    sources:
+    - https://github.com/falkordb/operator
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/operator-0.19.8/operator-0.19.8.tgz
+    version: 0.19.8
+  - apiVersion: v2
+    appVersion: 0.19.1
     created: "2025-03-11T17:48:44.351760775Z"
     description: Provides easy falkordb-operator setup definitions for Kubernetes
       services, and deployment.
@@ -417,4 +438,4 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/sentinel-0.17.1/sentinel-0.17.1.tgz
     version: 0.17.1
-generated: "2025-03-17T10:35:26.613315363Z"
+generated: "2025-04-22T10:07:58.737375357Z"
