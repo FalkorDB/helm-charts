@@ -3,6 +3,30 @@ entries:
   cluster:
   - apiVersion: v2
     appVersion: 0.16.5
+    created: "2025-04-28T05:22:49.911097878Z"
+    description: Provides easy redis setup definitions for Kubernetes services, and
+      deployment.
+    digest: 18e6fae56e0273d72daeb8c3dbcbb1a9c8bf3655bd0e206f321c435c1ac9cd04
+    home: https://github.com/falkordb/operator
+    icon: https://github.com/falkordb/operator/raw/main/static/redis-operator-logo.svg
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    - redis-exporter
+    maintainers:
+    - name: muhammadqadora
+    name: cluster
+    sources:
+    - https://github.com/falkordb/operator
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/cluster-0.17.1/cluster-0.17.1.tgz
+    version: 0.17.1
+  - apiVersion: v2
+    appVersion: 0.16.5
     created: "2025-04-24T11:08:27.371828586Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
@@ -94,6 +118,27 @@ entries:
     - https://github.com/FalkorDB/helm-charts/releases/download/cluster-0.16.7/cluster-0.16.7.tgz
     version: 0.16.7
   operator:
+  - apiVersion: v2
+    appVersion: 0.19.1
+    created: "2025-04-28T05:22:50.097541127Z"
+    description: Provides easy falkordb-operator setup definitions for Kubernetes
+      services, and deployment.
+    digest: 18bbe4ddbc40bb1caffd6bd4804c0198e0444abe1a08fe9b85b84fdc14840dcd
+    home: https://github.com/falkordb/operator
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    maintainers:
+    - name: muhammadqadora
+    name: operator
+    sources:
+    - https://github.com/falkordb/operator
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/operator-0.20.1/operator-0.20.1.tgz
+    version: 0.20.1
   - apiVersion: v2
     appVersion: 0.19.1
     created: "2025-04-24T11:08:27.57881874Z"
@@ -200,6 +245,30 @@ entries:
     - https://github.com/FalkorDB/helm-charts/releases/download/operator-0.19.5/operator-0.19.5.tgz
     version: 0.19.5
   redis:
+  - apiVersion: v2
+    appVersion: 0.16.5
+    created: "2025-04-28T05:22:50.270943991Z"
+    description: Provides easy redis setup definitions for Kubernetes services, and
+      deployment.
+    digest: bb9bd4837b84aae9f5755b748fdf0ba6eec5e8e310f740146b3e7ebc217008b4
+    home: https://github.com/falkordb/operator
+    icon: https://github.com/falkordb/operator/raw/main/static/redis-operator-logo.svg
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    - redis-exporter
+    maintainers:
+    - name: muhammadqadora
+    name: redis
+    sources:
+    - https://github.com/falkordb/operator
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/redis-0.16.9/redis-0.16.9.tgz
+    version: 0.16.9
   - apiVersion: v2
     appVersion: 0.16.5
     created: "2025-04-24T11:08:27.777694835Z"
@@ -389,6 +458,30 @@ entries:
   replication:
   - apiVersion: v2
     appVersion: 0.16.7
+    created: "2025-04-28T05:22:50.444944227Z"
+    description: Provides easy redis setup definitions for Kubernetes services, and
+      deployment.
+    digest: a8d0b6114c76bfff8cb8f9ffceba77ac746d0a3326030da5f35ba003fda4331d
+    home: https://github.com/falkordb/operator
+    icon: https://github.com/falkordb/operator/raw/main/static/redis-operator-logo.svg
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    - redis-exporter
+    maintainers:
+    - name: muhammadqadora
+    name: replication
+    sources:
+    - https://github.com/falkordb/operator
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/replication-0.17.4/replication-0.17.4.tgz
+    version: 0.17.4
+  - apiVersion: v2
+    appVersion: 0.16.7
     created: "2025-04-24T11:08:27.93714716Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
@@ -482,6 +575,30 @@ entries:
   sentinel:
   - apiVersion: v2
     appVersion: 0.16.9
+    created: "2025-04-28T05:22:50.632994744Z"
+    description: Provides easy redis setup definitions for Kubernetes services, and
+      deployment.
+    digest: 3fed7bb56b135ec63321dfcac1505032054329826f97dfc7f44e071c79648bb9
+    home: https://github.com/falkordb/operator
+    icon: https://github.com/falkordb/operator/raw/main/static/redis-operator-logo.svg
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    - redis-exporter
+    maintainers:
+    - name: muhammadqadora
+    name: sentinel
+    sources:
+    - https://github.com/falkordb/operator
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/sentinel-0.17.5/sentinel-0.17.5.tgz
+    version: 0.17.5
+  - apiVersion: v2
+    appVersion: 0.16.9
     created: "2025-04-24T11:08:28.129291003Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
@@ -572,4 +689,4 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/sentinel-0.17.1/sentinel-0.17.1.tgz
     version: 0.17.1
-generated: "2025-04-24T11:08:28.129355934Z"
+generated: "2025-04-28T05:22:50.633077778Z"
