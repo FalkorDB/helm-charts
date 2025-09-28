@@ -774,6 +774,6 @@ entries:
       - https://github.com/apecloud/kubeblocks/tree/main/deploy/falkordb
     type: application
     urls:
-    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-0.17.1/falkordb-cluster-0.17.1.tgz
+    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-1.0.1/falkordb-cluster-1.0.1.tgz
     version: 1.0.1
 generated: "2025-06-12T11:23:33.840364392Z"
