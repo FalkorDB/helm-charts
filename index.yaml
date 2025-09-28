@@ -757,7 +757,7 @@ entries:
     appVersion: "7.2.7"
     created: "2025-03-10T14:04:32.763335586Z"
     description: FalkorDB Cluster with Kubeblocks
-    digest: 34131d2d5b95ff0f306c4302cc815e06f4ef9dd17aa48c6c4c649a74dc3522ee
+    digest: 09572725ef3728d92a55f334d181b38675e8b9903be9ad4d33465cd16b26178b
     home: https://github.com/falkordb/kubeblocks-addons/addons/falkordb
     keywords:
     - falkordb
