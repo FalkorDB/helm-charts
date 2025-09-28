@@ -752,4 +752,28 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/sentinel-0.17.1/sentinel-0.17.1.tgz
     version: 0.17.1
+  falkordb-cluster:
+  - apiVersion: v2
+    appVersion: "7.2.7"
+    created: "2025-03-10T14:04:32.763335586Z"
+    description: FalkorDB Cluster with Kubeblocks
+    digest: 2d0f56e9b385593d89c9ea88c476afd6184a112e8f2616a2a9e3aacfc693947e
+    home: https://github.com/falkordb/kubeblocks-addons/addons/falkordb
+    keywords:
+    - falkordb
+    - database
+    - nosql
+    - replication
+    - graph
+    - ai
+    maintainers:
+    - name: David Zimberknopf
+    name: sentinel
+    sources:
+      - https://github.com/apecloud/kubeblocks/
+      - https://github.com/apecloud/kubeblocks/tree/main/deploy/falkordb
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-0.17.1/falkordb-cluster-0.17.1.tgz
+    version: 1.0.1
 generated: "2025-06-12T11:23:33.840364392Z"
