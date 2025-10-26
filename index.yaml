@@ -776,4 +776,28 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-1.0.1/falkordb-cluster-1.0.1.tgz
     version: 1.0.1
+  falkordb-cluster-omnistrate:
+  - apiVersion: v2
+    appVersion: "4.12.5"
+    created: "2025-03-10T14:04:32.763335586Z"
+    description: FalkorDB Cluster with Kubeblocks for Omnistrate
+    digest: 5240ffcf44fb24c86e9b4b068e2c4dc61492aa91d240d7b5a273a16d8ecf019e
+    home: https://github.com/falkordb/falkordb-omnistrate
+    keywords:
+    - falkordb
+    - database
+    - nosql
+    - replication
+    - graph
+    - ai
+    maintainers:
+    - name: David Zimberknopf
+    name: falkordb-cluster
+    sources:
+      - https://github.com/apecloud/kubeblocks/
+      - https://github.com/FalkorDB/falkordb-omnistrate/tree/main/helm/kubeblocks/falkordb-cluster
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-omnistrate-1.0.0/falkordb-cluster-omnistrate-1.0.0.tgz
+    version: 1.0.0
 generated: "2025-06-12T11:23:33.840364392Z"
