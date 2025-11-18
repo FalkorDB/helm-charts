@@ -117,6 +117,131 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/cluster-0.16.7/cluster-0.16.7.tgz
     version: 0.16.7
+  falkordb-cluster:
+  - apiVersion: v2
+    appVersion: 4.12.5
+    created: "2025-03-10T14:04:32.763335586Z"
+    description: FalkorDB Cluster with Kubeblocks for Omnistrate
+    digest: 5240ffcf44fb24c86e9b4b068e2c4dc61492aa91d240d7b5a273a16d8ecf019e
+    home: https://github.com/falkordb/falkordb-omnistrate
+    keywords:
+    - falkordb
+    - database
+    - nosql
+    - replication
+    - graph
+    - ai
+    maintainers:
+    - name: David Zimberknopf
+    name: falkordb-cluster
+    sources:
+    - https://github.com/apecloud/kubeblocks/
+    - https://github.com/FalkorDB/falkordb-omnistrate/tree/main/helm/kubeblocks/falkordb-cluster
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-omnistrate-1.0.0/falkordb-cluster-omnistrate-1.0.0.tgz
+    version: 1.0.0
+  falkordb-cluster-omnistrate:
+  - apiVersion: v2
+    appVersion: 4.12.5
+    created: "2025-11-18T08:38:37.801692097Z"
+    dependencies:
+    - alias: extra
+      name: kblib
+      repository: file://../kubeblocks-addons/addons-cluster/kblib
+      version: 0.1.2
+    description: A Helm chart for deploying FalkorDB cluster on KubeBlocks for Omnistrate
+    digest: 14960c6f66db68f6455ca9fbf75de0208703a27e14f69f62ca753657829bf4ee
+    home: https://falkordb.com
+    keywords:
+    - falkordb
+    - kubeblocks
+    - graph database
+    - redis
+    maintainers:
+    - name: FalkorDB Team
+    name: falkordb-cluster-omnistrate
+    sources:
+    - https://github.com/FalkorDB/FalkorDB
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/charts/falkordb-cluster-omnistrate-0.0.0-dev-19459519616.tgz
+    version: 0.0.0-dev-19459519616
+  - apiVersion: v2
+    appVersion: 4.12.5
+    created: "2025-11-18T08:38:37.800970498Z"
+    dependencies:
+    - alias: extra
+      name: kblib
+      repository: file://../kubeblocks-addons/addons-cluster/kblib
+      version: 0.1.2
+    description: A Helm chart for deploying FalkorDB cluster on KubeBlocks for Omnistrate
+    digest: 975a45bd1f86ba298877e1fc26c473b4eaae95a18dc615c6ab6ad896a9706252
+    home: https://falkordb.com
+    keywords:
+    - falkordb
+    - kubeblocks
+    - graph database
+    - redis
+    maintainers:
+    - name: FalkorDB Team
+    name: falkordb-cluster-omnistrate
+    sources:
+    - https://github.com/FalkorDB/FalkorDB
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/charts/falkordb-cluster-omnistrate-0.0.0-dev-19459398667.tgz
+    version: 0.0.0-dev-19459398667
+  - apiVersion: v2
+    appVersion: 4.12.5
+    created: "2025-11-18T08:38:37.800267053Z"
+    dependencies:
+    - alias: extra
+      name: kblib
+      repository: file://../kubeblocks-addons/addons-cluster/kblib
+      version: 0.1.2
+    description: A Helm chart for deploying FalkorDB cluster on KubeBlocks for Omnistrate
+    digest: d032a83824593175815cb50f20c1c62e8d1b91564a1c9c21f8f2960cb0fae694
+    home: https://falkordb.com
+    keywords:
+    - falkordb
+    - kubeblocks
+    - graph database
+    - redis
+    maintainers:
+    - name: FalkorDB Team
+    name: falkordb-cluster-omnistrate
+    sources:
+    - https://github.com/FalkorDB/FalkorDB
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/charts/falkordb-cluster-omnistrate-0.0.0-dev-19426722890.tgz
+    version: 0.0.0-dev-19426722890
+  - apiVersion: v2
+    appVersion: 4.12.5
+    created: "2025-11-18T08:38:37.7995217Z"
+    dependencies:
+    - alias: extra
+      name: kblib
+      repository: file://../kubeblocks-addons/addons-cluster/kblib
+      version: 0.1.2
+    description: A Helm chart for deploying FalkorDB cluster on KubeBlocks for Omnistrate
+    digest: 9860e2ae892a9dcffe5ecaab353efe7354991af28422e8b0d81271d2cced00f6
+    home: https://falkordb.com
+    keywords:
+    - falkordb
+    - kubeblocks
+    - graph database
+    - redis
+    maintainers:
+    - name: FalkorDB Team
+    name: falkordb-cluster-omnistrate
+    sources:
+    - https://github.com/FalkorDB/FalkorDB
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/charts/falkordb-cluster-omnistrate-0.0.0-dev-19426623463.tgz
+    version: 0.0.0-dev-19426623463
   operator:
   - apiVersion: v2
     appVersion: 0.19.1
@@ -637,6 +762,29 @@ entries:
     version: 0.17.0
   sentinel:
   - apiVersion: v2
+    appVersion: 7.2.7
+    created: "2025-03-10T14:04:32.763335586Z"
+    description: FalkorDB Cluster with Kubeblocks
+    digest: 09572725ef3728d92a55f334d181b38675e8b9903be9ad4d33465cd16b26178b
+    home: https://github.com/falkordb/kubeblocks-addons/addons/falkordb
+    keywords:
+    - falkordb
+    - database
+    - nosql
+    - replication
+    - graph
+    - ai
+    maintainers:
+    - name: David Zimberknopf
+    name: sentinel
+    sources:
+    - https://github.com/apecloud/kubeblocks/
+    - https://github.com/apecloud/kubeblocks/tree/main/deploy/falkordb
+    type: application
+    urls:
+    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-1.0.1/falkordb-cluster-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 0.16.9
     created: "2025-04-28T05:22:50.632994744Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
@@ -752,52 +900,4 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/sentinel-0.17.1/sentinel-0.17.1.tgz
     version: 0.17.1
-  falkordb-cluster:
-  - apiVersion: v2
-    appVersion: "7.2.7"
-    created: "2025-03-10T14:04:32.763335586Z"
-    description: FalkorDB Cluster with Kubeblocks
-    digest: 09572725ef3728d92a55f334d181b38675e8b9903be9ad4d33465cd16b26178b
-    home: https://github.com/falkordb/kubeblocks-addons/addons/falkordb
-    keywords:
-    - falkordb
-    - database
-    - nosql
-    - replication
-    - graph
-    - ai
-    maintainers:
-    - name: David Zimberknopf
-    name: sentinel
-    sources:
-      - https://github.com/apecloud/kubeblocks/
-      - https://github.com/apecloud/kubeblocks/tree/main/deploy/falkordb
-    type: application
-    urls:
-    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-1.0.1/falkordb-cluster-1.0.1.tgz
-    version: 1.0.1
-  falkordb-cluster-omnistrate:
-  - apiVersion: v2
-    appVersion: "4.12.5"
-    created: "2025-03-10T14:04:32.763335586Z"
-    description: FalkorDB Cluster with Kubeblocks for Omnistrate
-    digest: 5240ffcf44fb24c86e9b4b068e2c4dc61492aa91d240d7b5a273a16d8ecf019e
-    home: https://github.com/falkordb/falkordb-omnistrate
-    keywords:
-    - falkordb
-    - database
-    - nosql
-    - replication
-    - graph
-    - ai
-    maintainers:
-    - name: David Zimberknopf
-    name: falkordb-cluster
-    sources:
-      - https://github.com/apecloud/kubeblocks/
-      - https://github.com/FalkorDB/falkordb-omnistrate/tree/main/helm/kubeblocks/falkordb-cluster
-    type: application
-    urls:
-    - https://github.com/FalkorDB/helm-charts/releases/download/falkordb-cluster-omnistrate-1.0.0/falkordb-cluster-omnistrate-1.0.0.tgz
-    version: 1.0.0
-generated: "2025-06-12T11:23:33.840364392Z"
+generated: "2025-11-18T08:38:37.798586581Z"
