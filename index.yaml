@@ -120,7 +120,32 @@ entries:
   falkordb-cluster-omnistrate:
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-11-18T08:38:37.801692097Z"
+    created: "2025-11-18T08:53:23.81135774Z"
+    dependencies:
+    - alias: extra
+      name: kblib
+      repository: file://../kubeblocks-addons/addons-cluster/kblib
+      version: 0.1.2
+    description: A Helm chart for deploying FalkorDB cluster on KubeBlocks for Omnistrate
+    digest: d2b7e984a1972fbef156e6420f4ef22a3dc4fcd5834bd64f67557641b4beadfb
+    home: https://falkordb.com
+    keywords:
+    - falkordb
+    - kubeblocks
+    - graph database
+    - redis
+    maintainers:
+    - name: FalkorDB Team
+    name: falkordb-cluster-omnistrate
+    sources:
+    - https://github.com/FalkorDB/FalkorDB
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/charts/falkordb-cluster-omnistrate-0.0.0-dev-19459943083.tgz
+    version: 0.0.0-dev-19459943083
+  - apiVersion: v2
+    appVersion: 4.12.5
+    created: "2025-11-18T08:53:23.81061371Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -145,7 +170,7 @@ entries:
     version: 0.0.0-dev-19459519616
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-11-18T08:38:37.800970498Z"
+    created: "2025-11-18T08:53:23.809891341Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -170,7 +195,7 @@ entries:
     version: 0.0.0-dev-19459398667
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-11-18T08:38:37.800267053Z"
+    created: "2025-11-18T08:53:23.809143554Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -195,7 +220,7 @@ entries:
     version: 0.0.0-dev-19426722890
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-11-18T08:38:37.7995217Z"
+    created: "2025-11-18T08:53:23.808410124Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -876,4 +901,4 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/sentinel-0.17.1/sentinel-0.17.1.tgz
     version: 0.17.1
-generated: "2025-11-18T08:38:37.798586581Z"
+generated: "2025-11-18T08:53:23.807477281Z"
