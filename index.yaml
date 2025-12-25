@@ -120,7 +120,32 @@ entries:
   falkordb-cluster-omnistrate:
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.856929236Z"
+    created: "2025-12-25T07:45:56.145636733Z"
+    dependencies:
+    - alias: extra
+      name: kblib
+      repository: file://../kubeblocks-addons/addons-cluster/kblib
+      version: 0.1.2
+    description: A Helm chart for deploying FalkorDB cluster on KubeBlocks for Omnistrate
+    digest: 95289acea78e1c8b6db401194d603cdab837c578a33c0512e1ec4430799931f3
+    home: https://falkordb.com
+    keywords:
+    - falkordb
+    - kubeblocks
+    - graph database
+    - redis
+    maintainers:
+    - name: FalkorDB Team
+    name: falkordb-cluster-omnistrate
+    sources:
+    - https://github.com/FalkorDB/FalkorDB
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/charts/falkordb-cluster-omnistrate-0.0.0-dev-20501429544.tgz
+    version: 0.0.0-dev-20501429544
+  - apiVersion: v2
+    appVersion: 4.12.5
+    created: "2025-12-25T07:45:56.144818965Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -145,7 +170,7 @@ entries:
     version: 0.0.0-dev-20501195005
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.856131468Z"
+    created: "2025-12-25T07:45:56.143992402Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -170,7 +195,7 @@ entries:
     version: 0.0.0-dev-20489471158
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.855327219Z"
+    created: "2025-12-25T07:45:56.143169564Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -195,7 +220,7 @@ entries:
     version: 0.0.0-dev-20489335651
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.85453954Z"
+    created: "2025-12-25T07:45:56.142360994Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -220,7 +245,7 @@ entries:
     version: 0.0.0-dev-20489141216
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.853698432Z"
+    created: "2025-12-25T07:45:56.141533007Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -245,7 +270,7 @@ entries:
     version: 0.0.0-dev-20489046170
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.852096363Z"
+    created: "2025-12-25T07:45:56.140673482Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -270,7 +295,7 @@ entries:
     version: 0.0.0-dev-20488738365
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.851299156Z"
+    created: "2025-12-25T07:45:56.139333015Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -295,7 +320,7 @@ entries:
     version: 0.0.0-dev-20463922896
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.850522278Z"
+    created: "2025-12-25T07:45:56.13829088Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -320,7 +345,7 @@ entries:
     version: 0.0.0-dev-20433319973
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.849639713Z"
+    created: "2025-12-25T07:45:56.13743961Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -345,7 +370,7 @@ entries:
     version: 0.0.0-dev-20432892134
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.848819904Z"
+    created: "2025-12-25T07:45:56.136558305Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -370,7 +395,7 @@ entries:
     version: 0.0.0-dev-20432487054
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.848003221Z"
+    created: "2025-12-25T07:45:56.135712495Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -395,7 +420,7 @@ entries:
     version: 0.0.0-dev-20428156763
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.847205394Z"
+    created: "2025-12-25T07:45:56.134883336Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -420,7 +445,7 @@ entries:
     version: 0.0.0-dev-20344203120
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.846418537Z"
+    created: "2025-12-25T07:45:56.134039169Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -445,7 +470,7 @@ entries:
     version: 0.0.0-dev-20342205414
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.845592867Z"
+    created: "2025-12-25T07:45:56.133213777Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -470,7 +495,7 @@ entries:
     version: 0.0.0-dev-20335387515
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.844496754Z"
+    created: "2025-12-25T07:45:56.132360874Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -495,7 +520,7 @@ entries:
     version: 0.0.0-dev-20334241162
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.8431965Z"
+    created: "2025-12-25T07:45:56.130598453Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -520,7 +545,7 @@ entries:
     version: 0.0.0-dev-20333681373
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.842412278Z"
+    created: "2025-12-25T07:45:56.129776838Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -545,7 +570,7 @@ entries:
     version: 0.0.0-dev-20332101793
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.841580978Z"
+    created: "2025-12-25T07:45:56.128946207Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -570,7 +595,7 @@ entries:
     version: 0.0.0-dev-20304132944
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.840768383Z"
+    created: "2025-12-25T07:45:56.128119312Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -595,7 +620,7 @@ entries:
     version: 0.0.0-dev-20303907162
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.839974543Z"
+    created: "2025-12-25T07:45:56.12730481Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -620,7 +645,7 @@ entries:
     version: 0.0.0-dev-20301267996
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.839192545Z"
+    created: "2025-12-25T07:45:56.126463529Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -645,7 +670,7 @@ entries:
     version: 0.0.0-dev-20299936562
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.838425875Z"
+    created: "2025-12-25T07:45:56.125646813Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -670,7 +695,7 @@ entries:
     version: 0.0.0-dev-20298736936
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.837622026Z"
+    created: "2025-12-25T07:45:56.1248207Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -695,7 +720,7 @@ entries:
     version: 0.0.0-dev-20271202974
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.836807688Z"
+    created: "2025-12-25T07:45:56.123959531Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -720,7 +745,7 @@ entries:
     version: 0.0.0-dev-20270521339
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.835316489Z"
+    created: "2025-12-25T07:45:56.1222017Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -745,7 +770,7 @@ entries:
     version: 0.0.0-dev-20269719336
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.83453352Z"
+    created: "2025-12-25T07:45:56.121412425Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -770,7 +795,7 @@ entries:
     version: 0.0.0-dev-20268988006
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.833736353Z"
+    created: "2025-12-25T07:45:56.120613202Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -795,7 +820,7 @@ entries:
     version: 0.0.0-dev-20268500815
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.832875849Z"
+    created: "2025-12-25T07:45:56.119817205Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -820,7 +845,7 @@ entries:
     version: 0.0.0-dev-20268484416
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.832104501Z"
+    created: "2025-12-25T07:45:56.118974891Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -845,7 +870,7 @@ entries:
     version: 0.0.0-dev-20264650915
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.831316632Z"
+    created: "2025-12-25T07:45:56.11813919Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -870,7 +895,7 @@ entries:
     version: 0.0.0-dev-20228873164
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.830565121Z"
+    created: "2025-12-25T07:45:56.116967025Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -895,7 +920,7 @@ entries:
     version: 0.0.0-dev-20208321675
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.829809061Z"
+    created: "2025-12-25T07:45:56.116198418Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -920,7 +945,7 @@ entries:
     version: 0.0.0-dev-20207975865
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.829003819Z"
+    created: "2025-12-25T07:45:56.115405106Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -945,7 +970,7 @@ entries:
     version: 0.0.0-dev-20207562567
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.827809521Z"
+    created: "2025-12-25T07:45:56.114595233Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -970,7 +995,7 @@ entries:
     version: 0.0.0-dev-20206765045
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.826642706Z"
+    created: "2025-12-25T07:45:56.112921014Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -995,7 +1020,7 @@ entries:
     version: 0.0.0-dev-20206564944
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.825775719Z"
+    created: "2025-12-25T07:45:56.112084632Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1020,7 +1045,7 @@ entries:
     version: 0.0.0-dev-20141672348
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.824986247Z"
+    created: "2025-12-25T07:45:56.111325453Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1045,7 +1070,7 @@ entries:
     version: 0.0.0-dev-20140968916
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.824283587Z"
+    created: "2025-12-25T07:45:56.110581963Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1070,7 +1095,7 @@ entries:
     version: 0.0.0-dev-20138940206
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.823586447Z"
+    created: "2025-12-25T07:45:56.109839745Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1095,7 +1120,7 @@ entries:
     version: 0.0.0-dev-20135202548
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.822892153Z"
+    created: "2025-12-25T07:45:56.109108779Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1120,7 +1145,7 @@ entries:
     version: 0.0.0-dev-19466064305
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.822199061Z"
+    created: "2025-12-25T07:45:56.108385186Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1145,7 +1170,7 @@ entries:
     version: 0.0.0-dev-19465269371
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.821486973Z"
+    created: "2025-12-25T07:45:56.107415947Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1170,7 +1195,7 @@ entries:
     version: 0.0.0-dev-19464838044
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.820787328Z"
+    created: "2025-12-25T07:45:56.106465453Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1195,7 +1220,7 @@ entries:
     version: 0.0.0-dev-19464426868
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.820053841Z"
+    created: "2025-12-25T07:45:56.105610807Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1220,7 +1245,7 @@ entries:
     version: 0.0.0-dev-19462879022
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.818310101Z"
+    created: "2025-12-25T07:45:56.103779948Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1245,7 +1270,7 @@ entries:
     version: 0.0.0-dev-19461754716
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.817603895Z"
+    created: "2025-12-25T07:45:56.103068297Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1270,7 +1295,7 @@ entries:
     version: 0.0.0-dev-19461404856
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.816897878Z"
+    created: "2025-12-25T07:45:56.102354943Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1295,7 +1320,7 @@ entries:
     version: 0.0.0-dev-19461181965
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.816188616Z"
+    created: "2025-12-25T07:45:56.101601174Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1320,7 +1345,7 @@ entries:
     version: 0.0.0-dev-19461162053
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.815484142Z"
+    created: "2025-12-25T07:45:56.100855891Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1345,7 +1370,7 @@ entries:
     version: 0.0.0-dev-19460995593
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.814710249Z"
+    created: "2025-12-25T07:45:56.100027674Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1370,7 +1395,7 @@ entries:
     version: 0.0.0-dev-19460601544
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.813958327Z"
+    created: "2025-12-25T07:45:56.09930379Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1395,7 +1420,7 @@ entries:
     version: 0.0.0-dev-19460456448
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.813234097Z"
+    created: "2025-12-25T07:45:56.098556994Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1420,7 +1445,7 @@ entries:
     version: 0.0.0-dev-19459943083
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.812514455Z"
+    created: "2025-12-25T07:45:56.097797685Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1445,7 +1470,7 @@ entries:
     version: 0.0.0-dev-19459519616
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.811528625Z"
+    created: "2025-12-25T07:45:56.097033396Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1470,7 +1495,7 @@ entries:
     version: 0.0.0-dev-19459398667
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.810302158Z"
+    created: "2025-12-25T07:45:56.096263107Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -1495,7 +1520,7 @@ entries:
     version: 0.0.0-dev-19426722890
   - apiVersion: v2
     appVersion: 4.12.5
-    created: "2025-12-25T07:27:29.809584099Z"
+    created: "2025-12-25T07:45:56.095483971Z"
     dependencies:
     - alias: extra
       name: kblib
@@ -2176,4 +2201,4 @@ entries:
     urls:
     - https://github.com/FalkorDB/helm-charts/releases/download/sentinel-0.17.1/sentinel-0.17.1.tgz
     version: 0.17.1
-generated: "2025-12-25T07:27:29.808659576Z"
+generated: "2025-12-25T07:45:56.094471872Z"
