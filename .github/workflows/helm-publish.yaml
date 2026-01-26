@@ -36,5 +36,5 @@ jobs:
           shopt -s nullglob
           for chart in charts/*.tgz; do
             echo "Pushing $chart"
-            helm push "$chart" oci://ghcr.io/${{ github.repository }}
+            helm push "$chart" oci://ghcr.io/falkordb/helm-charts
           done
