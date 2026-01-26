@@ -2,7 +2,7 @@ name: Helm Publish
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: ['main']
     paths-ignore:
       - '.github/**'
       - '.git*'
@@ -11,10 +11,11 @@ on:
 
 jobs:
   helm:
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
-    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,10 +23,18 @@ jobs:
       - name: Install Helm
         uses: azure/setup-helm@v4
         with:
-          version: v3.12.3 # Lock version for now, helm v3.13.0 contains bugs related to oci that will be fixed in v3.13.1. https://github.com/helm/helm/issues/12423
+          version: v3.12.3
 
-      - name: Build and Push the Helm Charts to GitHub Container Registry
-        uses: JimCronqvist/action-helm-chart-repo@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          chartsPath: ./charts
+      - name: Login to GHCR
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | helm registry login ghcr.io \
+            --username ${{ github.actor }} \
+            --password-stdin
+
+      - name: Push all packaged Helm charts to GHCR
+        run: |
+          shopt -s nullglob
+          for chart in charts/*.tgz; do
+            echo "Pushing $chart"
+            helm push "$chart" oci://ghcr.io/${{ github.repository }}
+          done
