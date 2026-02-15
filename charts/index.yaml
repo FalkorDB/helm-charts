@@ -2,8 +2,29 @@ apiVersion: v1
 entries:
   falkordb-browser:
   - apiVersion: v2
+    appVersion: 1.7.2
+    created: "2026-02-15T13:44:57.627849181Z"
+    description: A Helm chart for deploying FalkorDB Browser to Kubernetes
+    digest: 4fdae4f67c7b9c83899ca489fe0070bf853ce2a13cd29f47b88086deb77bc466
+    home: https://github.com/FalkorDB/falkordb-browser
+    keywords:
+    - falkordb
+    - browser
+    - graph
+    - database
+    maintainers:
+    - name: FalkorDB
+      url: https://www.falkordb.com
+    name: falkordb-browser
+    sources:
+    - https://github.com/FalkorDB/falkordb-browser
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/falkordb-browser-1.7.2.tgz
+    version: 1.7.2
+  - apiVersion: v2
     appVersion: 1.7.1
-    created: "2026-01-28T13:11:12.210209812Z"
+    created: "2026-02-15T13:44:57.62730718Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 26067d9c13dfcd615cd79217f8af16d4e07c6637162a86c84c7befa577243941
     home: https://github.com/FalkorDB/falkordb-browser
@@ -24,7 +45,7 @@ entries:
     version: 1.7.1
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-01-28T13:11:12.209596988Z"
+    created: "2026-02-15T13:44:57.626701699Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: b8658a2514760a9239c59dc7b8dec3094122ab39ce92a9beacb82f0befbd9c1c
     home: https://github.com/FalkorDB/falkordb-browser
@@ -45,7 +66,7 @@ entries:
     version: 1.7.0
   - apiVersion: v2
     appVersion: 1.6.7
-    created: "2026-01-28T13:11:12.209008762Z"
+    created: "2026-02-15T13:44:57.626069879Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: aa4d05e9cf908bbb06139112b611a46e222c284270f40038b7c3381590d7b3d2
     home: https://github.com/FalkorDB/falkordb-browser
@@ -64,4 +85,4 @@ entries:
     urls:
     - https://falkordb.github.io/helm-charts/falkordb-browser-1.6.7.tgz
     version: 1.6.7
-generated: "2026-01-28T13:11:12.20822821Z"
+generated: "2026-02-15T13:44:57.625129247Z"
