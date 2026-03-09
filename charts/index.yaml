@@ -3,7 +3,7 @@ entries:
   falkordb-browser:
   - apiVersion: v2
     appVersion: 1.7.3
-    created: "2026-02-24T07:45:09.541301935Z"
+    created: "2026-03-09T12:45:24.090429507Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: b2c2cdfe0ac40b4be41c077836e1f5266244db6eddb33cf6a2e8d83c1d6a4174
     home: https://github.com/FalkorDB/falkordb-browser
@@ -24,7 +24,7 @@ entries:
     version: 1.7.3
   - apiVersion: v2
     appVersion: 1.7.2
-    created: "2026-02-24T07:45:09.540765964Z"
+    created: "2026-03-09T12:45:24.089855981Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 4a651fce827c0a1ffa0c25ced0af2e231fefaa6a3e2fa8d56e964fc82f48e684
     home: https://github.com/FalkorDB/falkordb-browser
@@ -45,7 +45,7 @@ entries:
     version: 1.7.2
   - apiVersion: v2
     appVersion: 1.7.1
-    created: "2026-02-24T07:45:09.540207852Z"
+    created: "2026-03-09T12:45:24.089293785Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 26067d9c13dfcd615cd79217f8af16d4e07c6637162a86c84c7befa577243941
     home: https://github.com/FalkorDB/falkordb-browser
@@ -66,7 +66,7 @@ entries:
     version: 1.7.1
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-02-24T07:45:09.539646513Z"
+    created: "2026-03-09T12:45:24.088686365Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: b8658a2514760a9239c59dc7b8dec3094122ab39ce92a9beacb82f0befbd9c1c
     home: https://github.com/FalkorDB/falkordb-browser
@@ -87,9 +87,9 @@ entries:
     version: 1.7.0
   - apiVersion: v2
     appVersion: 1.6.7
-    created: "2026-02-24T07:45:09.539040682Z"
+    created: "2026-03-09T12:45:24.088083303Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
-    digest: aa4d05e9cf908bbb06139112b611a46e222c284270f40038b7c3381590d7b3d2
+    digest: 352f4d088992000dc621234b94bdd3326db9960e15832fe6d5ba0e364d9bbde9
     home: https://github.com/FalkorDB/falkordb-browser
     keywords:
     - falkordb
@@ -106,4 +106,4 @@ entries:
     urls:
     - https://falkordb.github.io/helm-charts/falkordb-browser-1.6.7.tgz
     version: 1.6.7
-generated: "2026-02-24T07:45:09.538299448Z"
+generated: "2026-03-09T12:45:24.087294155Z"
