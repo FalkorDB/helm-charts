@@ -2,8 +2,29 @@ apiVersion: v1
 entries:
   falkordb-browser:
   - apiVersion: v2
+    appVersion: 2.0.3
+    created: "2026-05-06T11:49:18.184017436Z"
+    description: A Helm chart for deploying FalkorDB Browser to Kubernetes
+    digest: 5072cb5ac43dd8f16112a95135caa70049ad73201cd4ed68dc641b1ca52edf74
+    home: https://github.com/FalkorDB/falkordb-browser
+    keywords:
+    - falkordb
+    - browser
+    - graph
+    - database
+    maintainers:
+    - name: FalkorDB
+      url: https://www.falkordb.com
+    name: falkordb-browser
+    sources:
+    - https://github.com/FalkorDB/falkordb-browser
+    type: application
+    urls:
+    - https://falkordb.github.io/helm-charts/falkordb-browser-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
     appVersion: 2.0.2
-    created: "2026-05-04T12:53:23.259486392Z"
+    created: "2026-05-06T11:49:18.183452182Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 6663dbade3115da04843843a6de2ef616982a514d6b59912e68708b6ead0b59e
     home: https://github.com/FalkorDB/falkordb-browser
@@ -24,7 +45,7 @@ entries:
     version: 2.0.2
   - apiVersion: v2
     appVersion: 2.0.1
-    created: "2026-05-04T12:53:23.258954666Z"
+    created: "2026-05-06T11:49:18.182933524Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 69f8e50d1ee1e45a7b79e17423799f640f80c92cf1dea894245debcedf644b58
     home: https://github.com/FalkorDB/falkordb-browser
@@ -45,7 +66,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 1.9.4
-    created: "2026-05-04T12:53:23.258385865Z"
+    created: "2026-05-06T11:49:18.182378489Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 72bc3d654902d2c692893ec1ce567a68a41d98d495e44aa0c72232d11f1b4780
     home: https://github.com/FalkorDB/falkordb-browser
@@ -66,7 +87,7 @@ entries:
     version: 1.9.4
   - apiVersion: v2
     appVersion: 1.9.3
-    created: "2026-05-04T12:53:23.257849763Z"
+    created: "2026-05-06T11:49:18.181841857Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: d4a2ef4423d89327aca707f0c9486daf9fbdda06d33a3e8626f441b508eca466
     home: https://github.com/FalkorDB/falkordb-browser
@@ -87,7 +108,7 @@ entries:
     version: 1.9.3
   - apiVersion: v2
     appVersion: 1.9.2
-    created: "2026-05-04T12:53:23.257270587Z"
+    created: "2026-05-06T11:49:18.181283826Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 5cf5f09bbdc53995b85ce7af71cf700ae94e91386995b8a78b879de73f7ab122
     home: https://github.com/FalkorDB/falkordb-browser
@@ -108,7 +129,7 @@ entries:
     version: 1.9.2
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2026-05-04T12:53:23.256689878Z"
+    created: "2026-05-06T11:49:18.180687333Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 1065c769ae2ce7c6a5d727aa4335214308d4a38a72dea2b6b239bc3dea69bf9a
     home: https://github.com/FalkorDB/falkordb-browser
@@ -129,7 +150,7 @@ entries:
     version: 1.9.1
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2026-05-04T12:53:23.255353794Z"
+    created: "2026-05-06T11:49:18.180087344Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 83e403d86a57b0a3407a17a6b679108936927212fa9d7e69fac1562f37011a33
     home: https://github.com/FalkorDB/falkordb-browser
@@ -150,7 +171,7 @@ entries:
     version: 1.9.0
   - apiVersion: v2
     appVersion: 1.8.1
-    created: "2026-05-04T12:53:23.254830971Z"
+    created: "2026-05-06T11:49:18.178853193Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 6883a2d224d77571dd3d7676891bdec48c5fd15234d1515e7cf24b634a34a47d
     home: https://github.com/FalkorDB/falkordb-browser
@@ -171,7 +192,7 @@ entries:
     version: 1.8.1
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2026-05-04T12:53:23.254252426Z"
+    created: "2026-05-06T11:49:18.1782565Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 42cf96f550488b5964fa8f976d90790794770449f40a7152d6f4130c64d9a194
     home: https://github.com/FalkorDB/falkordb-browser
@@ -192,7 +213,7 @@ entries:
     version: 1.8.0
   - apiVersion: v2
     appVersion: 1.7.3
-    created: "2026-05-04T12:53:23.253706078Z"
+    created: "2026-05-06T11:49:18.177623619Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: b2c2cdfe0ac40b4be41c077836e1f5266244db6eddb33cf6a2e8d83c1d6a4174
     home: https://github.com/FalkorDB/falkordb-browser
@@ -213,7 +234,7 @@ entries:
     version: 1.7.3
   - apiVersion: v2
     appVersion: 1.7.2
-    created: "2026-05-04T12:53:23.253129115Z"
+    created: "2026-05-06T11:49:18.176995006Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 4a651fce827c0a1ffa0c25ced0af2e231fefaa6a3e2fa8d56e964fc82f48e684
     home: https://github.com/FalkorDB/falkordb-browser
@@ -234,7 +255,7 @@ entries:
     version: 1.7.2
   - apiVersion: v2
     appVersion: 1.7.1
-    created: "2026-05-04T12:53:23.252530821Z"
+    created: "2026-05-06T11:49:18.17642313Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 26067d9c13dfcd615cd79217f8af16d4e07c6637162a86c84c7befa577243941
     home: https://github.com/FalkorDB/falkordb-browser
@@ -255,7 +276,7 @@ entries:
     version: 1.7.1
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-05-04T12:53:23.251872878Z"
+    created: "2026-05-06T11:49:18.175864848Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: b8658a2514760a9239c59dc7b8dec3094122ab39ce92a9beacb82f0befbd9c1c
     home: https://github.com/FalkorDB/falkordb-browser
@@ -276,7 +297,7 @@ entries:
     version: 1.7.0
   - apiVersion: v2
     appVersion: 1.6.7
-    created: "2026-05-04T12:53:23.25123823Z"
+    created: "2026-05-06T11:49:18.175256302Z"
     description: A Helm chart for deploying FalkorDB Browser to Kubernetes
     digest: 09e4753a993e405927c3b7e2286072c34a15064a0f09e25ba1f87665761035cc
     home: https://github.com/FalkorDB/falkordb-browser
@@ -295,4 +316,4 @@ entries:
     urls:
     - https://falkordb.github.io/helm-charts/falkordb-browser-1.6.7.tgz
     version: 1.6.7
-generated: "2026-05-04T12:53:23.25040612Z"
+generated: "2026-05-06T11:49:18.174495443Z"
